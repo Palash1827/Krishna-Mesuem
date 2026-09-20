@@ -1,0 +1,16 @@
+- run backend in one terminal
+.\mvnw.cmd spring-boot:run
+c - backend link
+
+
+http://localhost:8080/api/artifacts - test
+
+
+
+npm run dev - run frontend in one terminal
+
+http://localhost:5173 - frontend link
+
+
+
+

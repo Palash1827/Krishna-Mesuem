@@ -1,0 +1,50 @@
+krishna-museum-project
+│
+├── backend (Spring Boot)
+│   ├── src/main/java/com/krishna/museum
+│   │   ├── controller
+│   │   │      ArtifactController.java
+│   │   │      FloorController.java
+│   │   │
+│   │   ├── model
+│   │   │      Artifact.java
+│   │   │      Floor.java
+│   │   │
+│   │   ├── repository
+│   │   │      ArtifactRepository.java
+│   │   │      FloorRepository.java
+│   │   │
+│   │   ├── service
+│   │   │      ArtifactService.java
+│   │   │      FloorService.java
+│   │   │
+│   │   └── KrishnaMuseumApplication.java
+│   │
+│   └── resources
+│        application.properties
+│
+└── frontend (React + Vite)
+    ├── src
+    │   ├── components
+    │   │      Navbar.jsx
+    │   │      FloorCard.jsx
+    │   │      ArtifactCard.jsx
+    │   │
+    │   ├── sections
+    │   │      Home.jsx
+    │   │      Explore.jsx
+    │   │      About.jsx
+    │   │      Contact.jsx
+    │   │
+    │   ├── pages
+    │   │      FloorPage.jsx
+    │   │      ArtifactPage.jsx
+    │   │
+    │   ├── services
+    │   │      api.js
+    │   │
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── styles.css
+    │
+    └── index.html

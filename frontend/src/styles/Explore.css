@@ -1,0 +1,23 @@
+#explore {
+  padding: 100px 20px 80px;
+  background:
+    radial-gradient(circle at top, rgba(244, 197, 66, 0.08), transparent 35%),
+    linear-gradient(to bottom, #0f0f0f, #171717);
+  color: white;
+  text-align: center;
+}
+
+#explore h1 {
+  font-size: 42px;
+  margin-bottom: 14px;
+  color: #f4c542;
+  font-weight: 800;
+}
+
+.floor-container {
+  max-width: 1180px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
